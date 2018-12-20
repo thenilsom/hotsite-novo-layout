@@ -62,26 +62,54 @@
     </div>
   </header>
 
-    <!-- Sessão pra que fiador -->
-    <section id="praQueFiador" class="fundo-pagina">
-      <div data-ng-include="'./src/view/praQueFiador.html'"></div>    
-    </section>
+    <div layout="row">
+      <div flex="10" class="fundo-pagina"></div>
+      <div flex="10" style="background-color: #32c2ea;"></div>
 
-    <!-- Sessão titulo captalização -->
-    <section id="tituloCaptalizacao" class="fundo-pagina">
-      <div data-ng-include="'./src/view/tituloCaptalizacao.html'"></div>     
-    </section>
+      <div flex-gt-sm="80">
+        <!-- Sessão pra que fiador -->
+        <section id="praQueFiador" class="fundo-pagina">
+          <div data-ng-include="'./src/view/praQueFiador.html'"></div>    
+        </section>
+      </div>
+    </div>
 
-    <!-- Sessão seguro fiança -->
-    <section id="seguroFianca" class="fundo-pagina">
-      <div data-ng-include="'./src/view/seguroFianca.html'"></div>
-    </section>
+    <div layout="row">
+      <div flex="10" class="fundo-pagina"></div>
+      <div flex="10" style="background-image: linear-gradient(to top, #189ec3, #32c2ea);"></div>
 
-    <!-- Sessão alugue em 3 passos -->
-    <section id="alugueEm3Passos" class="fundo-pagina">
-      <div data-ng-include="'./src/view/alugueEm3Passos.html'"></div>    
-    </section>
+      <div flex-gt-sm="80">
+        <!-- Sessão titulo captalização -->
+        <section id="tituloCaptalizacao" class="fundo-pagina">
+          <div data-ng-include="'./src/view/tituloCaptalizacao.html'"></div>     
+        </section>
+      </div>
+    </div>
 
+    <div layout="row">
+      <div flex="10" class="fundo-pagina"></div>
+      <div flex="10" style="background-image: linear-gradient(to top, #12809e, #189ec3);"></div>
+
+      <div flex-gt-sm="80">
+        <!-- Sessão seguro fiança -->
+        <section id="seguroFianca" class="fundo-pagina">
+          <div data-ng-include="'./src/view/seguroFianca.html'"></div>
+        </section>
+      </div>
+    </div>
+
+    <div layout="row">
+      <div flex="10" class="fundo-pagina"></div>
+      <div flex="10" style="background-image: linear-gradient(to top, #12657b, #12809e);"></div>
+
+      <div flex-gt-sm="80">
+        <!-- Sessão alugue em 3 passos -->
+        <section id="alugueEm3Passos" class="fundo-pagina">
+          <div data-ng-include="'./src/view/alugueEm3Passos.html'"></div>    
+        </section>
+      </div>
+    </div>
+   
       <!-- Botão ir para o topo -->
       <md-button class="md-fab btn-go-top" aria-label="ir para topo" ng-click="gotoTop()">
             <md-icon md-svg-src="./assets/svg/ic_arrow_up_24px.svg"></md-icon>
