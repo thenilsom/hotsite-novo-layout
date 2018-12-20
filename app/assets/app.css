@@ -108,10 +108,22 @@ input[type="text"][upper] {
 
 .fundo-pagina{
   background: #f7f7f7; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(to right, #d6d5d5 , #f7f7f7, #d6d5d5); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(to right, #d6d5d5 , #f7f7f7, #d6d5d5); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(to right, #d6d5d5 , #f7f7f7, #d6d5d5); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to right, #d6d5d5 , #f7f7f7, #d6d5d5);/* Standard syntax */
+}
+
+.fundo-pagina-esquerda{
+  background: #f7f7f7; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(to right, #848484 , #f7f7f7); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(to right, #848484 , #f7f7f7); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(to right, #848484 , #f7f7f7); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #848484 , #f7f7f7);
+}
+
+.fundo-pagina-direita{
+  background: #f7f7f7; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(to left, #848484 , #f7f7f7); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(to left, #848484 , #f7f7f7); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(to left, #848484 , #f7f7f7); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to left, #848484 , #f7f7f7);
 }
 
 .img-locacao{
