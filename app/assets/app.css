@@ -24,6 +24,8 @@ footer {
   border: none !important;
   padding: 2.5px !important;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(29, 28, 28, 0.75), rgba(0, 0, 0, 0));
+  margin-top: 40px;
+  margin-bottom: 65px;
 }
 
 h1 strong{
@@ -147,7 +149,7 @@ input[type="text"][upper] {
 .titulo-pagina{
   color: #17c9ff !important;
   font-weight: bold;
-  text-align: center;
+  text-align: left;
 }
 
 .tam-2{
