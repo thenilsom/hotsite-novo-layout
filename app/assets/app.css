@@ -47,15 +47,6 @@ input[type="text"][upper] {
     text-transform: uppercase;
 }
 
-/*classe usada para renderizar bordas vermelhas nos inputs*/
-.errorAttribute {
-    border-bottom-color: #f56a67 !important;
-    border-left-color: #f56a67 !important;
-    border-right-color: #f56a67 !important;
-    border-top-color: #f56a67 !important;
-    border-top-right-radius: 0 !important;
-    border-bottom-right-radius: 0 !important;
-}
 
 .borda{
   border: solid 4px;
@@ -63,26 +54,6 @@ input[type="text"][upper] {
   padding: 15px;
 }
 
-.borda-formulario{
-  border: 1px solid #B0B0B0;
-  border-radius: 12px;
-  padding: 10px;
-  margin-top: 5px;
-  background-color: #E2E2E2;
-}
-
-.fundo-formulario{
-   background-color: #E2E2E2;
-   color: #717079;
-}
-
-/*fundo disabled para campos de valor*/
-.disabled-value{
-  background-color: #9c9999 !important;
-  color: white !important;
-  font-size: initial !important;
-  font-weight: bold !important;
-}
 
 #borda-icones{
   border: solid 1px;
