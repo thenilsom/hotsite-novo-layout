@@ -8,12 +8,11 @@ html, body {
   background-color: #ffffff !important;
 }
 
-header {
-  background-image: url(img/banner_principal.png);
-  background-size: cover;
-  background-position: top center;
-  height: 100%;
+#img-principal{
+  position: absolute;
+  left: 11.7%;
 }
+
 
 footer {
   background-color: #133454;
@@ -71,9 +70,6 @@ input[type="text"][upper] {
   padding-right: 16px;
 }
 
-#imgFiadorNunca{
-    max-width: 100%;
-  }
 
  #img_din{
     max-width: 100%;
@@ -103,10 +99,6 @@ input[type="text"][upper] {
   max-width: 90%
 }
 
-.icon10 {
-  width: 150px;
-  height: 150px;
-}
 
 .icon5 {
   width: 90px;
@@ -188,15 +180,20 @@ input[type="text"][upper] {
     margin-bottom: 10px;
   }
 
-  .icon10 {
-    width: 90px;
-    height: 90px;
+  .icon-house{
+    position: absolute !important;
+    left: 7%;
   }
-
+ 
   .icon5 {
   width: 50px;
   height: 50px;
   }
+}
+
+.icon-house{
+  position: absolute !important;
+  left: 15%;
 }
 
 .principal-banner {
