@@ -129,9 +129,11 @@ input[type="text"][upper] {
 
 /*para dispositivos com resolução até 1280px*/
 @media(max-width: 1280px) {
-  header {
-  background-image: url(img/banner_principal_responsivo.png);
-  }
+  #img-principal{
+  position: absolute;
+  left: 0%;
+  width: 100%
+}
 
   h1 strong{
     font-size: 40px;
@@ -180,9 +182,18 @@ input[type="text"][upper] {
     margin-bottom: 10px;
   }
 
+  .titulo-pagina{
+    margin-left: 20px;
+    margin-top: -5%;
+  }
+
   .icon-house{
-    position: absolute !important;
-    left: 7%;
+    width: 25% !important;
+    left: 2% !important;
+  }
+
+  .barra-lateral{
+    margin-left: 6px;
   }
  
   .icon5 {
