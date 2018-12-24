@@ -11,6 +11,7 @@ html, body {
 #img-principal{
   position: absolute;
   left: 11.7%;
+  width: 70%
 }
 
 
@@ -21,7 +22,7 @@ footer {
 
 .hr-style{
   border: none !important;
-  padding: 2.5px !important;
+  padding: 2px !important;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(29, 28, 28, 0.75), rgba(0, 0, 0, 0));
   margin-top: 40px;
   margin-bottom: 65px;
@@ -41,39 +42,12 @@ h1 strong{
   border-top-right-radius: 2em !important;
 }
 
-/*textos maiusculos nos inputs text*/
-input[type="text"][upper] {
-    text-transform: uppercase;
-}
-
-
-.borda{
-  border: solid 4px;
-  border-radius: 19px;
-  padding: 15px;
-}
-
-
-#borda-icones{
-  border: solid 1px;
-  border-radius: 5px;
-  border-bottom: 0px;
-  width: 59%;
-  height: 70%;
-  position: absolute;
-  top: 0%;
-  left: 21%;
-  z-index: -1;
-}
 
 .glyphicon{
   padding-right: 16px;
 }
 
 
- #img_din{
-    max-width: 100%;
-  }
 
 .fundo-pagina{
   background: #f7f7f7; /* For browsers that do not support gradients */
@@ -127,12 +101,15 @@ input[type="text"][upper] {
   margin-bottom: 10px;
 }
 
+.descricao{
+  text-align: left;
+}
+
 /*para dispositivos com resolução até 1280px*/
 @media(max-width: 1280px) {
   #img-principal{
-  position: absolute;
-  left: 0%;
-  width: 100%
+  left: 0% !important;
+  width: 100% !important
 }
 
   h1 strong{
@@ -140,27 +117,40 @@ input[type="text"][upper] {
     font-weight: 500;
   }
 
-  
-  .md-display-3 {
-      font-size: 40px;
-      font-weight: 400;
-      line-height: 64px;
+  .descricao{
+     margin-left: 75px;
   }
 
-  .tam-2{
-    font-size: 28px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  } 
+  .titulo-pagina{
+    margin-left: 75px;
+    margin-top: -5%;
+  }
+
+  .md-display-3 {
+      font-size: 40px;
+      /*font-weight: 400;*/
+      line-height: 45px;
+  }
+
+  .icon-house{
+    width: 25% !important;
+    left: 2% !important;
+  }
+
+   #icon-house-1{
+    top: 15%;
+  }
+
+
+  .barra-lateral{
+    margin-left: 15px;
+  }
    
 
 }
 
 /*para dispositivos com resolução até 500px*/
 @media(max-width: 500px) {
-  #imgFiadorNunca{
-    max-width: 50%;
-  }
 
   .img-locacao{
     max-width: 100%;
@@ -170,11 +160,12 @@ input[type="text"][upper] {
     max-width: 50%;
   }
 
-  .md-display-2 {
-      font-size: 30px;
-      font-weight: 400;
-      line-height: 40px;
+  .md-display-3 {
+      font-size: 34px;
+      /*font-weight: 400;*/
+      line-height: 45px;
   }
+
 
   .tam-3{
     font-size: 18px;
@@ -182,9 +173,17 @@ input[type="text"][upper] {
     margin-bottom: 10px;
   }
 
+  .descricao{
+     margin-left: 20px;
+  }
+
   .titulo-pagina{
     margin-left: 20px;
     margin-top: -5%;
+  }
+
+  #icon-house-1{
+    top: 15%;
   }
 
   .icon-house{
@@ -202,56 +201,15 @@ input[type="text"][upper] {
   }
 }
 
+#icon-house-1{
+  margin-top: 69%;
+}
+
 .icon-house{
   position: absolute !important;
   left: 15%;
 }
 
-.principal-banner {
-  color: #FFF;
-  width: 100%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  transition: .3s;
-}
-
-/*para dispositivos com resolução de no mínimo 992px*/
-@media(min-width: 992px) {
-  .principal-banner {
-    left: 0;
-    transform: translate(0, -80%);
-    width: 75%;
-    top: 70%;
-  }
-
-  .principal-bannerWrapper {
-    position: relative;
-    height: 100%;
-  }
-
-  .input-group span.input-group-addon{
-  padding: 1px 5px;
-}
-  
-}
-
-/*Legenda fieldset*/
-fieldset.scheduler-border {
-    border: 1px solid #ccc !important;
-    border-radius: 7px;
-    padding: 0 1.4em 1.4em 1.4em !important;
-    margin: 0 0 1.5em 0 !important;
-    -webkit-box-shadow:  0px 0px 0px 0px #000;
-            box-shadow:  0px 0px 0px 0px #000;
-}
-
-legend.scheduler-border {
-    width: auto !important;
-    border: none;
-    font-size: 13px;
-}
 
 /*----------Back to Top Button -----------*/
 
