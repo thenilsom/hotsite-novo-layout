@@ -70,18 +70,9 @@ h1 strong{
 }
 
 .img-locacao{
-  max-width: 90%
+  max-width: 80%
 }
 
-
-.icon5 {
-  width: 90px;
-  height: 90px;
-}
-
-.text-white{
-  color: #ffffff !important;
-}
 
 .titulo-pagina{
   color: #17c9ff !important;
@@ -111,7 +102,7 @@ h1 strong{
 }
 
 /*para dispositivos com resolução até 1280px*/
-@media(max-width: 1280px) {
+@media(max-width: 1200px) {
   #img-principal{
   left: 0% !important;
   width: 100% !important
@@ -156,6 +147,11 @@ h1 strong{
 
 /*para dispositivos com resolução até 500px*/
 @media(max-width: 500px) {
+
+   #img-principal{
+    left: 0% !important;
+    width: 100% !important
+  }
 
   .img-locacao{
     max-width: 100%;
@@ -203,20 +199,26 @@ h1 strong{
   .barra-lateral{
     margin-left: 6px;
   }
- 
-  .icon5 {
-  width: 50px;
-  height: 50px;
+
+  #praQueFiador{
+    margin-top: 115% !important;
   }
+ 
+
+}
+
+#praQueFiador{
+  margin-top: 105%
 }
 
 #icon-house-1{
-  margin-top: 69%;
+  margin-top: 68%;
 }
 
 .icon-house{
   position: absolute !important;
   left: 15%;
+  width: 15%;
 }
 
 
