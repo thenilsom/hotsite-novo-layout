@@ -189,6 +189,7 @@ h1 strong{
   .titulo-pagina{
     margin-left: 20px;
     margin-top: -5%;
+    font-weight: bold !important;
   }
 
   #icon-house-1{
@@ -221,8 +222,8 @@ h1 strong{
 
 .icon-house{
   position: absolute !important;
-  left: 15%;
-  width: 15%;
+  left: 16%;
+  width: 13%;
 }
 
 
