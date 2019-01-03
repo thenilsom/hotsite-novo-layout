@@ -76,7 +76,7 @@ h1 strong{
 
 .titulo-pagina{
   color: #17c9ff !important;
-  font-weight: bold;
+  font-weight: 800;
   text-align: left;
 }
 
@@ -98,7 +98,11 @@ h1 strong{
 
 .list-item{
   color: #2B4459;
-  font-weight: bold;
+  font-weight: 800;
+}
+
+.item-topicos{
+  padding-bottom: 16px !important;
 }
 
 /*para dispositivos com resolução até 1280px*/
@@ -154,7 +158,7 @@ h1 strong{
   }
 
   .img-locacao{
-    max-width: 100%;
+    max-width: 90%;
   }
 
   #btnEnviar{
